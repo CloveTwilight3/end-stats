@@ -5,11 +5,16 @@ A Minecraft Paper plugin for tracking dragon event achievements.
 ## How it works
 
 🥚 - Anyone who enters the end during the event.
-🗡️ - The person who does the final strike to the first dragon
+
+🗡️ - The person who does the final strike to the first dragon.
+
 ⚔️ - The people who do any final strike to any dragon within the 24 hours after the first dragon dies.
-💪🏻 - The person who does the most damage to the dragon (that doesn't have the 🗡️ reward)
-🪽 - The person to get the first Elytra
-📦 - The person to get the first Shulker Box
+
+💪🏻 - The person who does the most damage to the dragon (that doesn't have the 🗡️ reward).
+
+🪽 - The person to get the first Elytra.
+
+📦 - The person to get the first Shulker Box.
 
 ## Installation
 
