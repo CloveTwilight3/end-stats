@@ -27,3 +27,10 @@ A Minecraft Paper plugin for tracking dragon event achievements.
 
 - `dragonevent.admin` - Allows starting/stopping events (default: op)
 - `dragonevent.participate` - Allows participation in events (default: true)
+
+---
+
+## Contributors
+<a href="https://github.com/CloveTwilight3/end-stats/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=CloveTwilight3/end-stats" />
+</a>
