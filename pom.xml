@@ -47,6 +47,14 @@
             <artifactId>gson</artifactId>
             <version>2.10.1</version>
         </dependency>
+
+        <!-- bStats for metrics -->
+        <dependency>
+            <groupId>org.bstats</groupId>
+            <artifactId>bstats-bukkit</artifactId>
+            <version>3.0.2</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
 
     <build>
@@ -62,7 +70,7 @@
                 </configuration>
             </plugin>
 
-            <!-- Maven Shade Plugin (to include Gson in the final JAR) -->
+            <!-- Maven Shade Plugin (to include Gson and bStats in the final JAR) -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
@@ -79,6 +87,10 @@
                                 <relocation>
                                     <pattern>com.google.gson</pattern>
                                     <shadedPattern>uk.co.clovetwilight3.libs.gson</shadedPattern>
+                                </relocation>
+                                <relocation>
+                                    <pattern>org.bstats</pattern>
+                                    <shadedPattern>uk.co.clovetwilight3.libs.bstats</shadedPattern>
                                 </relocation>
                             </relocations>
                         </configuration>

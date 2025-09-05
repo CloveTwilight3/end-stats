@@ -4,6 +4,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.ChatColor;
+import uk.co.clovetwilight3.libs.bstats.bukkit.Metrics;
 
 public class Main extends JavaPlugin {
 
@@ -11,6 +12,9 @@ public class Main extends JavaPlugin {
 
     @Override
     public void onEnable() {
+        int pluginId = 27179; // Replace with your actual plugin id
+        Metrics metrics = new Metrics(this, pluginId);
+
         if (!getDataFolder().exists()) {
             getDataFolder().mkdirs();
         }
