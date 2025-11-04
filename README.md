@@ -30,6 +30,11 @@ A Minecraft Paper plugin for tracking dragon event achievements.
 
 ---
 
+## Help
+If you need help. [join our discord](https://discord.gg/k8HrBvDaQn)
+
+---
+
 ## Contributors
 <a href="https://github.com/CloveTwilight3/end-stats/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=CloveTwilight3/end-stats" />
